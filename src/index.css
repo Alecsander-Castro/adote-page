@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #fbe9eb;
+    color: #ec9ea5;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#ec9ea5;
+}
+.main-container{
+    min-height: 74vh;
+}
+
+.title-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.intro-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.icon h1{
+    background-color: #ec9ea5;
+    color: #fff;
+    margin-left: 0.5em;
+}
+
+.adote-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 2em;
+    background-color: #ec9ea5;
+    color: #fff;
+}
+
+footer p, span {
+    background-color: #ec9ea5;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+    background-color: #ec9ea5;
+
+}
+.nav-items {
+    display: flex;
+    list-style: none;
+    background-color: #ec9ea5;
+}
+.nav-items a {
+    text-decoration-line: none;
+    flex-wrap: wrap;
+    margin: 0; 
+    color:#fff;
+    background-color: #ec9ea5;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 56% 44% 41% 59% / 54% 19% 81% 46% ;
+}
+.nav-items a:hover {
+    background-color:#e6838b;
+    transition: 1s;
+    color: #000;
+}
+.nav-items li{
+    background-color: #ec9ea5;
+}
+
+.style-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 23%;
+    color: #fff;
+    background: rgba(241, 115, 115, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+}
+.style-card p {
+    background: rgba(247, 191, 191);
+    padding-top: 10px;
+    color: #fff;
+}
+.carding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  .forming {
+    margin: 0 auto;
+    width: 18%;
+
+  }
+
+  .forming input {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(247, 191, 191);
+    box-shadow: 2px 2px 2px;
+  }
+
+  #formDuvida {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(247, 191, 191);
+    box-shadow: 2px 2px 2px;
+  }
+
+  input:focus, textarea:focus {
+    outline: none;
+  }
+  .inputSubmit {
+    border: none;
+    width: 100%;
+    max-width: 75px;
+  }
+
+  .inputSubmit:hover {
+    color: #fff;
+    background-color: rgba(247, 191, 191);
+    transition: 1s;
+  }

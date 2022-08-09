@@ -1,0 +1,61 @@
+{
+    "cats":[
+        {
+            "id": 1,
+            "name": "Maria",
+            "race": "Siamês",
+            "img_url" : "http://www.petdoctor.com.br/wp-content/uploads/2021/08/EstrabismoEmGatos-Topo-Set21.png" 
+        },
+        
+        {
+            "id": 2,
+            "name": "João",
+            "race": "SRD",
+            "img_url" : "assets/gato1.jpg"
+        },
+
+        {
+            "id": 3,
+            "name": "Adolfo",
+            "race": "Siamês",
+            "img_url" : "assets/gato2.jpg"
+        },
+
+        {
+            "id": 4,
+            "name": "Rajadinhu",
+            "race": "SRD",
+            "img_url" : "assets/gato4.jpg"
+        }
+
+    ],
+
+    "dogs": [
+        {
+            "id" : 1,
+            "name": "Murila",
+            "race" : "Boxer",
+            "img_url" : "https://static1.patasdacasa.com.br/articles/5/28/15/@/11791-o-cachorro-boxer-ate-tem-cara-de-bravo-opengraph_1200-3.jpg"
+        },
+        {
+            "id" : 2,
+            "name": "Mimosa",
+            "race" : "Caramelo",
+            "img_url" : "https://s2.glbimg.com/C5E5sjo9kNvuRHSkngFHzb3kPHg=/0x246:960x1061/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/k/K/BcJe9cSdGCMcLqjlF5hQ/whatsapp-image-2021-02-04-at-18.00.14.jpeg"
+        },
+        {
+            "id" : 3,
+            "name": "Baby",
+            "race" : "Yorkshire",
+            "img_url" : "https://meupulguento.com/wp-content/uploads/2020/05/yorkie.jpg"
+        },
+        {
+            "id" : 4,
+            "name": "Bob",
+            "race" : "SRD",
+            "img_url" : "https://static1.patasdacasa.com.br/articles/0/39/80/@/17480-o-cachorro-vira-lata-caramelo-e-um-simbo-articles_media_mobile-3.jpg"
+        }
+    
+    ]
+
+}
