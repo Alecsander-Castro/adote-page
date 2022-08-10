@@ -20,7 +20,7 @@ function App() {
         <Route exact path='/home' element={<Home/>}/>
         <Route exact path='/cats' element={<Cats/>}/>
         <Route exact path='/dogs' element={<Dogs/>}/>
-        <Route exact path='contact' element={<Contact/>}/>
+        <Route exact path='/contact' element={<Contact/>}/>
       </Routes>
       </Componente>
     </Router>
