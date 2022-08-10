@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Componente>
       <Routes>
-        <Route exact path='/home' element={<Home/>}/>
+        <Route exact path='/' element={<Home/>}/>
         <Route exact path='/cats' element={<Cats/>}/>
         <Route exact path='/dogs' element={<Dogs/>}/>
         <Route exact path='/contact' element={<Contact/>}/>
