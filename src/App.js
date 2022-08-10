@@ -17,10 +17,10 @@ function App() {
     <Router>
       <Componente>
       <Routes>
-        <Route exact path='adote-page/home' element={<Home/>}/>
-        <Route exact path='adote-page/cats' element={<Cats/>}/>
-        <Route exact path='adote-page/dogs' element={<Dogs/>}/>
-        <Route exact path='adote-page/contact' element={<Contact/>}/>
+        <Route exact path='/home' element={<Home/>}/>
+        <Route exact path='/cats' element={<Cats/>}/>
+        <Route exact path='/dogs' element={<Dogs/>}/>
+        <Route exact path='contact' element={<Contact/>}/>
       </Routes>
       </Componente>
     </Router>
