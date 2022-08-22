@@ -1,4 +1,4 @@
-<h1 align="center"> Landing Page - Adoção de Animais(Em progresso) </h1>
+<h1 align="center"> Landing Page - Adoção de Animais(Em construção) </h1>
 
 # Resumo do projeto
 Landing page utilizando React e fake API REST com o site https://my-json-server.typicode.com
